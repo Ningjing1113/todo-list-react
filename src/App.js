@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <TaskBox preTaskId = {this.state.lastAddedTaskId} _addTask = {this._addTask.bind(this)} defaultText = {"  Add a to do..."}/>
+        <TaskBox _addTask = {this._addTask.bind(this)} defaultText = {"  Add a to do..."}/>
         <TaskList tasks = {this.state.tasks} _markTaskCompleted = {this._markTaskCompleted.bind(this)}/>
       </div>
     );
