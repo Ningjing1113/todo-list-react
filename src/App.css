@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/* styles for to-do list */
+.text-cross-over {
+  text-decoration: line-through;
+  color: #aaaaaa;
+}
+
+.button {
+  margin: 1px;
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  font-size:10px;
+  color: white;
+  background-color: #66aadd;
+  border-radius:3px;
+}
+.app-component-box {
+  margin: 8px 200px 1px 200px;
+}
+.task-item-box {
+  text-align:left;
+  font-size: 11px;
+  color: #333333;
+  font-weight: 700;
+  background-color: white;
+  padding: 3px;
+  border: 1px solid #cccccc;
+}
+
+.task-item-label {
+  margin: 1px 1px 1px 5px;
+}
+
+.task-box {
+  position: relative;
+  height: 22px;
+}
+
+.task-input {
+  height:100%;
+  width:99.5%;
+  float: left;
+  border:1px solid #cccccc;
+}
